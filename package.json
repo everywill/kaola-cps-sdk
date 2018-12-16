@@ -1,4 +1,9 @@
 {
+  "name": "kaola-cps-sdk",
+  "version": "1.0.0",
+  "files": [
+    "src"
+  ],
   "engines": {
     "node": ">=8.9.0"
   },
@@ -11,5 +16,11 @@
   "devDependencies": {
     "eslint": "^5.10.0",
     "eslint-plugin-node": "^8.0.0"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/everywill/Kaola-cps-SDK.git"
+  },
+  "author": "everywill",
+  "license": "MIT",
 }
