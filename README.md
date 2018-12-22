@@ -31,22 +31,18 @@ klcps.config({
 商品查询:
 ```
 klcps.getGoodsInfo({
-  goods, 
+  goods,
   type
 })
 ```
 订单查询:
 ```
-klcps.getOrderInfo({ 
-  startDate, 
-  endDate, 
-  orderId, 
-  status 
+klcps.getOrderInfo({
+  startDate,
+  endDate,
+  orderId,
+  status
  })
 ```
 
 欢迎issue和pr。
-
-#### buy me a coffee
-![支付宝赞赏码](https://images.yyshhhh.com/WechatIMG25.jpeg?imageView2/0/w/400)
-![微信赞赏码](https://images.yyshhhh.com/WechatIMG26.jpeg?imageView2/0/w/400)
