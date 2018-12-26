@@ -1,3 +1,3 @@
-const cps = require('./src/cps')
+const KaolaClient = require('./lib/kaola-client')
 
-module.exports = cps
+module.exports = KaolaClient

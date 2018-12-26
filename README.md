@@ -13,31 +13,32 @@ yarn add kaola-cps-sdk
 
 #### 引入文件
 ```
-const klcps = require('kaola-cps-sdk')
+const KaolaClient = require('kaola-cps-sdk')
 ```
 
 #### 配置
 调用接口前需要先使用unionId和appSecret进行配置:
 ```
-klcps.config({
+const client = KaolaClient.config({
   unionId,
   appSecret
 })
 ```
 
 #### API
-注意调用api返回的都是promise，可使用async/await；应用级别的入参和出参请参看[考拉cps官方文档](http://cps.kaola.com/apiInterface#)
+在client上调用api对应的方法，自然支持未来的新方法；注意调用api返回的都是promise，可使用async/await。
+应用级别的入参和出参请参看[考拉cps官方文档](http://cps.kaola.com/apiInterface#)
 
 商品查询:
 ```
-klcps.getGoodsInfo({
+client.queryGoodsDetail({
   goods,
   type
 })
 ```
 订单查询:
 ```
-klcps.getOrderInfo({
+client.queryorder({
   startDate,
   endDate,
   orderId,
